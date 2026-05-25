@@ -19,7 +19,7 @@ void input_practice_data()
 {
     printf("\n--- [1] 연습 기록 입력 ---\n");
     printf("오늘의 주된 연습 종류 (R:루디먼트, S:곡, F:프리): ");
-    scanf("%c", &practice_type);
+    scanf(" %c", &practice_type);
     printf("총 연습 시간(시간 단위, 예: 1.5): ");
     scanf("%f", &practice_hours);
     printf("목표 템포(BPM): ");
